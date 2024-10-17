@@ -17,7 +17,7 @@ header{
     height: 60px;
     width: 100%;
     background-color: rgb(255, 144, 255);
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 123, 246);
     background-image: url(pics/H\ BG.jpg);
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@ li{
     height: 600px;
     width: auto;
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -158,6 +158,15 @@ p{
 img{
     height: 100%;
     width: 100%;
+}
+.section3{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/bg\ sec3.jpg);
 }
 
 
