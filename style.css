@@ -121,7 +121,7 @@ li{
     align-items: center;
     align-items: first baseline;
 }
-.gallery{
+.hobbies{
     width: 80%;
     height: 65%;
     gap: 10px;
@@ -135,7 +135,7 @@ li{
 .item{
     height: 100%;
     width: 25%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   box-shadow: #da4dda;
  
 }
 .image{
@@ -167,8 +167,69 @@ img{
     justify-content: center;
     align-items: center;
     background-image: url(pics/bg\ sec3.jpg);
+    
 }
-
+.section3{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.skills-container {
+    height: auto;
+    width: 900px;
+    padding: 20px;
+    border: 2px solid #ff3cd2;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+.skills-container h2 {
+    margin-bottom: 20px;
+    background-color: #d70effa4;
+    color: #000000;
+    padding: 10px 0;
+}
+.skill {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.skill-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.progress-bar {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 20px;
+}
+.progress-bar-inner {
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fb3fe5;
+}
+.coding .progress-bar-inner {
+    width: 75%;
+}
+ .editing .progress-bar-inner {
+    width: 90%;
+}
+.gaming .progress-bar-inner {
+    width: 98%;
+}
+.section4{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pics/bg\ sec4.jpg);
+}
 
 
 
