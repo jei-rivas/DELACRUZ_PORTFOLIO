@@ -101,7 +101,7 @@ li{
     align-items: center;
     height: 150px;
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .profile-container2{
     height: 250px;
@@ -182,15 +182,13 @@ img{
     height: auto;
     width: 900px;
     padding: 20px;
-    border: 2px solid #ff3cd2;
     border-radius: 8px;
-    background-color: #fff;
+    background-image: url(pics/bg\ sec3.jpgz);
     text-align: center;
 }
 .skills-container h2 {
     margin-bottom: 20px;
-    background-color: #d70effa4;
-    color: #000000;
+    color: #ffffff;
     padding: 10px 0;
 }
 .skill {
@@ -229,6 +227,28 @@ img{
     justify-content: center;
     align-items: center;
     background-image: url(pics/bg\ sec4.jpg);
+}
+.profile-container3{
+    height: 250px;
+    width: 120%;
+    display: flex;
+    color: white;
+    padding: 20px;
+    align-items: center;
+   justify-content: flex-start;
+}
+   .image3{
+    height: 50%;
+    width: 100%;
+ }
+.profile-img3{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 30px;
+    justify-content: left;
+    align-items: baseline;
+    align-items: first baseline;
 }
 
 
