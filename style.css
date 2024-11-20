@@ -237,7 +237,7 @@ img{
     align-items: center;
    justify-content: flex-start;
 }
-   .image3{
+.image3{
     height: 50%;
     width: 100%;
  }
@@ -251,7 +251,91 @@ img{
     align-items: first baseline;
 }
 
+.gallery-section {
+    height: 100vh;
+    background-color: rgb(187, 62, 187);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(pics/bg\ sec4.jpg);
+}
+
+.gallery-section h2 {
+font-size: 2em;
+margin-bottom: 20px;
+color: #ffffff;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.gallery img {
+width: 110%;
+height: 45vh;
+border-radius: 30px;
+
+}
+
+.gallery img:hover {
+transform: scale(1.05);
+}
+
+.footer {
+    background-image: url(pics/Footer\ bg.jpg);
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #fff;
+}
+
+.footer h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.contact-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-item:hover img {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.address {
+    margin-top: 15px;
+    font-size: 0.8em;
+}
 
 
-    
-
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
